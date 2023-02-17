@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter text" />
+        android:text="@string/textview" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -19,13 +19,13 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Text"
+            android:hint="@string/textinput"
             android:singleLine="true" />
     </com.google.android.material.textfield.TextInputLayout>
 		
 	<Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click me" />
+        android:text="@string/button" />
 
 </LinearLayout>
